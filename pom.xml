@@ -14,7 +14,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.build.timestamp.format>yyyy-mm-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
   </properties>
- 
+  <build>
+        <finalName>HelloWorldMaven-${maven.build.timestamp}</finalName>
+  </build>  
+            
 <distributionManagement>
   <repository>
     <id>releases</id>
