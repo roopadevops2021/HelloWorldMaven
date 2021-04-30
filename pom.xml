@@ -15,7 +15,7 @@
   </properties>
   
   <build>
-        <finalName>HelloWorldMaven-${maven.build.timestamp} - ${project.version}</finalName>
+        <finalName>HelloWorldMaven-${maven.build.timestamp} - ${version}</finalName>
   </build>  
             
 <distributionManagement>
