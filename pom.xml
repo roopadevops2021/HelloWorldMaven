@@ -16,7 +16,7 @@
   </properties>
   
   <build>
-        <finalName>HelloWorldMaven-${maven.build.timestamp} - ${version}</finalName>
+        <finalName>HelloWorldMaven-${maven.build.timestamp} - ${project.version}</finalName>
   </build>  
             
 <distributionManagement>
@@ -32,12 +32,4 @@
    </snapshotRepository> 
 </distributionManagement>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>1.0-SANPSHOT</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 </project>
