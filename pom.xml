@@ -4,16 +4,14 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>1.0-SANPSHOT</version>
+  <version>1.0.6.RELEASE</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <timestamp>${maven.build.timestamp}</timestamp>
-   <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+    <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
   </properties>
   <build>
         <finalName>HelloWorldMaven-${maven.build.timestamp} - ${project.version}</finalName>
@@ -36,6 +34,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+      <version>1.0.6.RELEASE</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
