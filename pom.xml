@@ -5,6 +5,8 @@
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
   <version>1.0.6-RELEASE</version>
+  <timestamp>${maven.build.timestamp}</timestamp>
+   <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -12,8 +14,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <timestamp>${maven.build.timestamp}</timestamp>
-   <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
   </properties>
   <build>
         <finalName>HelloWorldMaven-${maven.build.timestamp}</finalName>
