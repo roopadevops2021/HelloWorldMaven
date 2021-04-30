@@ -16,7 +16,7 @@
    <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
   </properties>
   <build>
-        <finalName>HelloWorldMaven-${-${maven.build.timestamp}</finalName>
+        <finalName>HelloWorldMaven-${maven.build.timestamp}</finalName>
   </build>  
             
 <distributionManagement>
