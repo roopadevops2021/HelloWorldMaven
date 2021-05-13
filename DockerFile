@@ -1,0 +1,4 @@
+FROM ubuntu
+ADD **/target/*.jar
+EXPOSE 8080 
+ENTRYPOINT http://13.232.48.87:8081/
